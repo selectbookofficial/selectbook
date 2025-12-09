@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Review Questions | SelectBook</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f5f7fb;
+    color:#222;
+}
+.top-bar{
+    background:#013b8a;
+    color:#fff;
+    padding:12px 18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.btn-top{
+    padding:6px 12px;
+    border:1px solid #fff;
+    background:transparent;
+    color:#fff;
+    cursor:pointer;
+    border-radius:4px;
+}
+.container{
+    max-width:1000px;
+    margin:20px auto;
+    padding:0 10px 20px;
+}
+.question-box{
+    background:#fff;
+    border:1px solid #d0d7e2;
+    border-radius:8px;
+    padding:16px 18px;
+    margin-bottom:14px;
+}
+.q-head{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:8px;
+    font-size:15px;
+    font-weight:bold;
+}
+.options{
+    list-style:none;
+    padding:0;
+    margin:8px 0 0 0;
+}
+.options li{
+    padding:8px 10px;
+    border-radius:6px;
+    margin-bottom:6px;
+}
+.correct{
+    background:#e6f7ec;
+    border:1px solid #2ecc71;
+}
+.wrong{
+    background:#ffebeb;
+    border:1px solid #e74c3c;
+}
+.user{
+    border-style:dashed;
+    border-width:2px;
+}
+.status-box{
+    margin-top:8px;
+    font-size:13px;
+}
+@media(max-width:600px){
+    .question-box{
+        padding:12px 12px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+    <div>Review Questions</div>
+    <button class="btn-top" onclick="window.location.href='exam-result.html'">
+        Back to Result
+    </button>
+</div>
+
+<div class="container" id="review-container">
+    Loading review...
+</div>
+
+<script>
+function loadReview(){
+    const qRaw = localStorage.getItem("selectbook-questions");
+    const aRaw = localStorage.getItem("selectbook-userAnswers");
+
+    if(!qRaw || !aRaw){
+        document.getElementById("review-container").innerHTML =
+            "<p style='color:red;'>Review data नहीं मिला। पहले कोई test attempt कीजिए।</p>";
+        return;
+    }
+
+    const questions = JSON.parse(qRaw);
+    const answers   = JSON.parse(aRaw);
+
+    let html = "";
+
+    questions.forEach((q, index) => {
+        const userAns = answers[index];   // 0,1,2,3 or null
+        const correct = q.answer;         // सही option index
+
+        html += `<div class="question-box">
+            <div class="q-head">
+                <div>Q${index + 1}</div>
+            </div>
+            <p>${q.text}</p>
+            <ul class="options">
+        `;
+
+        (q.options || []).forEach((option, i) => {
+            let cls = "";
+            if(i === correct){
+                cls = "correct";
+            }
+            if(userAns === i){
+                if(i === correct){
+                    cls = "correct user";   // सही + user answer
+                }else{
+                    cls = "wrong user";     // गलत + user answer
+                }
+            }
+
+            html += `<li class="${cls}">
+                <label>${option}</label>
+            </li>`;
+        });
+
+        let statusText = "";
+        if(userAns == null){
+            statusText = "Not Attempted";
+        }else if(userAns === correct){
+            statusText = "Correct";
+        }else{
+            statusText = "Incorrect";
+        }
+
+        html += `</ul>
+            <div class="status-box"><b>Status:</b> ${statusText}</div>
+        </div>`;
+    });
+
+    document.getElementById("review-container").innerHTML = html;
+}
+
+window.addEventListener("DOMContentLoaded", loadReview);
+</script>
+
+</body>
+</html>
