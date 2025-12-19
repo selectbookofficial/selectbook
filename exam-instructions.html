@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test Instructions | SelectBook</title>
+<style>
+:root{
+    --primary:#013b8a;
+    --primary-light:#0a48a7;
+    --accent:#f4f7ff;
+    --border:#d0d7e2;
+}
+/* RESET */
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+    font-family:Arial, sans-serif;
+    background:#f5f7fb;
+    color:#222;
+}
+
+/* TOP BAR */
+.topbar{
+    background:var(--primary);
+    color:#fff;
+    padding:10px 16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:8px;
+}
+#Left{
+    font-size:16px;
+    font-weight:bold;
+}
+#Right{
+    font-size:13px;
+}
+
+/* WRAPPER */
+.wrapper{
+    max-width:1100px;
+    margin:18px auto 24px;
+    padding:0 10px;
+}
+
+/* CARD */
+.card{
+    background:#fff;
+    border-radius:8px;
+    border:1px solid var(--border);
+    padding:16px 18px 18px;
+}
+
+/* SUMMARY TABLE */
+.summary-title{
+    font-size:14px;
+    font-weight:bold;
+    text-align:center;
+    margin-bottom:8px;
+}
+.summary-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:13px;
+    margin-bottom:12px;
+}
+.summary-table th,
+.summary-table td{
+    border:1px solid var(--border);
+    padding:6px 8px;
+    text-align:center;
+}
+.summary-table th{
+    background:#f0f3fb;
+}
+
+/* LEGEND */
+.legend-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px 14px;
+    margin-top:6px;
+    font-size:12px;
+}
+.legend-item{
+    display:flex;
+    align-items:center;
+    gap:4px;
+}
+.legend-badge{
+    width:16px;
+    height:16px;
+    border-radius:3px;
+}
+.badge-notvisited{background:#e0e0e0;}
+.badge-notanswered{background:#f44336;}
+.badge-answered{background:#4caf50;}
+.badge-marked{background:#9c27b0;}
+.legend-btn{
+    padding:3px 10px;
+    border-radius:3px;
+    font-size:11px;
+    border:1px solid #bbb;
+    background:#f7f7f7;
+}
+
+/* INSTRUCTIONS */
+.instructions-title{
+    font-weight:bold;
+    margin:10px 0 6px;
+    font-size:14px;
+}
+.instructions{
+    font-size:13px;
+    line-height:1.45;
+}
+.instructions ol{
+    margin-left:18px;
+    margin-top:4px;
+}
+.instructions li{
+    margin-bottom:4px;
+}
+
+/* FOOTER AREA */
+.bottom-bar{
+    margin-top:14px;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    font-size:13px;
+}
+.language-select{
+    padding:4px 6px;
+    border-radius:4px;
+    border:1px solid var(--border);
+}
+.btn-primary{
+    background:var(--primary);
+    color:#fff;
+    border:none;
+    padding:8px 18px;
+    border-radius:4px;
+    cursor:pointer;
+    font-size:14px;
+}
+.btn-primary:hover{
+    background:var(--primary-light);
+}
+
+/* responsive */
+@media (max-width:640px){
+    .summary-table th,
+    .summary-table td{
+        font-size:12px;
+        padding:4px 5px;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+    <div id="Left"></div>
+    <div id="Right"></div>
+</div>
+
+<div class="wrapper">
+    <div class="card">
+        <!-- Summary Table -->
+        <div class="summary-title" id="summaryTitle">
+            Please read the following instructions carefully
+        </div>
+        <table class="summary-table" aria-describedby="summaryTitle">
+            <thead>
+                <tr>
+                    <th>Section #</th>
+                    <th>Section Name</th>
+                    <th>Total Questions</th>
+                    <th>Max Score</th>
+                    <th>Marks / Correct</th>
+                    <th>Negative Marks</th>
+                </tr>
+            </thead>
+            <tbody id="summaryBody">
+                <!-- populated dynamically -->
+                <tr><td colspan="6" style="color:#55606a">Loading test details…</td></tr>
+            </tbody>
+        </table>
+
+        <!-- Legend Row -->
+        <div class="legend-row">
+            <div class="legend-item">
+                <div class="legend-badge badge-notvisited"></div>
+                <span>You have not visited the question yet.</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-badge badge-notanswered"></div>
+                <span>You have not answered the question.</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-badge badge-answered"></div>
+                <span>You have answered the question.</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-badge badge-marked"></div>
+                <span>Answer saved &amp; marked for review.</span>
+            </div>
+        </div>
+
+        <!-- Instructions -->
+        <div class="instructions-title">General Instructions</div>
+        <div class="instructions" id="instructionText">
+            <ol>
+                <li id="li-time">Total of 60 minutes duration will be given to attempt all questions.</li>
+                <li>Clock at the top right corner will display the time remaining for the test.</li>
+                <li>Question palette helps you navigate through the questions.</li>
+            </ol>
+
+            <div class="instructions-title" style="margin-top:8px;">Navigating to a Question</div>
+            <ol>
+                <li>Click on a question number in the palette to directly jump to that question.</li>
+                <li>Use <b>Save &amp; Next</b> to save your answer and move to next question.</li>
+                <li>Use <b>Mark for Review &amp; Next</b> if you want to check that question again later.</li>
+            </ol>
+
+            <div class="instructions-title" style="margin-top:8px;">Answering a Question</div>
+            <ol>
+                <li>Select one option as the correct answer.</li>
+                <li>To change your answer, select another option.</li>
+                <li>To clear your answer, click on <b>Clear Response</b> button during the test.</li>
+            </ol>
+        </div>
+
+        <!-- Bottom Controls -->
+        <div class="bottom-bar">
+            <div>
+                Choose Language:
+                <select class="language-select" id="langSelect">
+                    <option>English</option>
+                    <option>हिंदी</option>
+                </select>
+            </div>
+            <button class="btn-primary" id="startBtn" type="button">
+                Start Test in CBT Interface
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+/*
+  Dynamic instruction page
+  - Reads ?exam=EXAMKEY and optional ?test=TEST_ID
+  - Tries to fetch exam-data.json (preferred). If not found (file:// preview), uses INLINE_FALLBACK.
+  - Populates , summary table and instruction text according to test-level fields:
+     test.title, test.timeMinutes, test.totalQuestions, test.markPerQuestion, test.negativeMark, test.label, test.rules
+  - Start button redirects to exam-test.html?exam=...&test=...
+*/
+
+/* Helpers */
+function qp(name){ return new URLSearchParams(location.search).get(name); }
+function uc(s){ return s ? String(s).toUpperCase() : s; }
+function empty(el){ while(el && el.firstChild) el.removeChild(el.firstChild); }
+function text(elId, v){ const e=document.getElementById(elId); if(e) e.textContent = v ?? ''; }
+
+/* EXAM_DATA will hold normalized external data or fallback */
+let EXAM_DATA = null;
+
+async function loadExamData(){
+  try{
+    const resp = await fetch('data/exams.json', {cache:'no-store'});
+    if(!resp.ok){
+      throw new Error('Failed to load data/exams.json');
+    }
+    const json = await resp.json();
+    const norm = {};
+    Object.keys(json).forEach(k => norm[uc(k)] = json[k]);
+    EXAM_DATA = norm;
+    console.log('Loaded data/exams.json');
+  }catch(e){
+    console.error('Error loading exams.json', e);
+  }
+}
+
+/* find test across the exam structure (search tests array and also nested cbt1/cbt2 modes) */
+function findTestInExam(examObj, testId){
+  if(!examObj || !testId) return null;
+  const tid = uc(testId);
+  if(Array.isArray(examObj.tests)){
+    for(const t of examObj.tests) if(uc(t.id) === tid) return t;
+  }
+  for(const cbtKey of ['cbt1','cbt2']){
+    if(!examObj[cbtKey]) continue;
+    for(const mode of Object.keys(examObj[cbtKey] || {})){
+      const arr = examObj[cbtKey][mode] || [];
+      for(const t of arr) if(uc(t.id) === tid) return t;
+    }
+  }
+  return null;
+}
+
+/* if only testId provided, find which exam contains it */
+function findExamByTest(testId){
+  const tid = uc(testId);
+  for(const ek of Object.keys(EXAM_DATA || {})){
+    const exam = EXAM_DATA[ek];
+    const t = findTestInExam(exam, tid);
+    if(t) return { examKey: ek, testObj: t };
+  }
+  return null;
+}
+
+/* main render */
+async function init(){
+  await loadExamData();
+
+  const examParam = qp('exam');
+  const testParam = qp('test');
+  let examKey = examParam ? uc(examParam) : null;
+  let testObj = null;
+
+  if(testParam && !examKey){
+    const found = findExamByTest(testParam);
+    if(found){ examKey = found.examKey; testObj = found.testObj; }
+  }
+
+  if(!examKey){
+    // fallback: use first exam in data
+    examKey = Object.keys(EXAM_DATA)[0];
+  }
+
+  const examObj = EXAM_DATA[examKey];
+  if(!examObj){
+    // show error state in table
+    const tbody = document.getElementById('summaryBody');
+    empty(tbody);
+    const tr = document.createElement('tr');
+    tr.innerHTML = '<td colspan="6" style="color:#a00">Exam data not found for: ' + (examParam || testParam || examKey) + '</td>';
+    tbody.appendChild(tr);
+    return;
+  }
+
+  // if test not found earlier, look inside exam
+  if(!testObj && testParam){
+    testObj = findTestInExam(examObj, testParam);
+  }
+  // if still null, pick first test or build from exam defaults
+  if(!testObj){
+    // prefer cbt1.full[0]
+    if(examObj.cbt1 && examObj.cbt1.full && examObj.cbt1.full.length>0) testObj = examObj.cbt1.full[0];
+    else if(Array.isArray(examObj.tests) && examObj.tests.length>0) testObj = examObj.tests[0];
+    else testObj = { id: 'DEFAULT', title: examObj.title || examKey, timeMinutes: examObj.defaultTime || examObj.timeMinutes || '--', totalQuestions: examObj.defaultTotalQuestions || examObj.totalQuestions || '--', markPerQuestion: examObj.defaultMarkPer || examObj.markPerQuestion || 1, negativeMark: examObj.defaultNegative || 0 };
+  }
+
+  // Render  text
+  const topLeft = document.getElementById('Left');
+  const topRight = document.getElementById('Right');
+  if(topLeft) topLeft.textContent = `SelectBook | ${examObj.title || examKey} ${testObj && testObj.title ? ' - ' + testObj.title : ''}`;
+  const timeVal = (testObj.timeMinutes ?? testObj.time ?? examObj.defaultTime ?? examObj.timeMinutes ?? '--');
+  const qVal = (testObj.totalQuestions ?? testObj.totalQ ?? examObj.defaultTotalQuestions ?? examObj.totalQuestions ?? '--');
+  if(topRight) topRight.innerHTML = `Total Questions: <strong>${qVal}</strong> &nbsp; | &nbsp; Total Time: <strong>${timeVal}</strong> Minutes`;
+
+  // Populate summary table tbody
+  const tbody = document.getElementById('summaryBody');
+  empty(tbody);
+  const tr = document.createElement('tr');
+  const markPer = (testObj.markPerQuestion ?? testObj.markPer ?? examObj.defaultMarkPer ?? examObj.markPerQuestion ?? 1);
+  const negative = (testObj.negativeMark ?? testObj.negative ?? examObj.defaultNegative ?? examObj.negativeMark ?? -0.25);
+  const maxScore = (Number(qVal) ? (Number(qVal) * Number(markPer)) : qVal);
+  tr.innerHTML = `
+    <td>1</td>
+    <td>${testObj.title || examObj.title || examKey}</td>
+    <td>${qVal}</td>
+    <td>${maxScore}</td>
+    <td>${markPer}</td>
+    <td>${negative}</td>
+  `;
+  tbody.appendChild(tr);
+
+  // Update the first instruction line to mention exact time/questions
+  const liTime = document.getElementById('li-time');
+  if(liTime) liTime.textContent = `Total of ${timeVal} minutes duration will be given to attempt all ${qVal} questions.`;
+
+  // If test has specific rules, append them after the instructions block
+  const instructionsDiv = document.getElementById('instructionText');
+  // remove any previously inserted test-rules block
+  const existing = document.getElementById('testRulesBlock');
+  if(existing) existing.remove();
+  if(testObj.rules && Array.isArray(testObj.rules) && testObj.rules.length>0){
+    const div = document.createElement('div');
+    div.id = 'testRulesBlock';
+    div.style.marginTop = '10px';
+    const h = document.createElement('div'); h.className='instructions-title'; h.textContent = 'Test Specific Rules';
+    div.appendChild(h);
+    const ol = document.createElement('ol');
+    testObj.rules.forEach(r=>{
+      const li = document.createElement('li'); li.textContent = r; ol.appendChild(li);
+    });
+    div.appendChild(ol);
+    instructionsDiv.appendChild(div);
+  }
+
+  // Set language default if provided in examObj
+  const lang = document.getElementById('langSelect');
+  if(lang && examObj.defaultLanguage){
+    try{ lang.value = examObj.defaultLanguage; }catch(e){}
+  }
+
+  // Wire start button to redirect including exam & test params
+  const startBtn = document.getElementById('startBtn');
+  if(startBtn){
+    startBtn.addEventListener('click', function(){
+      const examToSend = encodeURIComponent(examKey);
+      const testToSend = encodeURIComponent(testObj.id || '');
+      // navigate to test runner (keep same filename as your runner or change to exam-runner.html)
+      window.location.href = `exam-test.html?exam=${examToSend}&test=${testToSend}`;
+    });
+  }
+}
+
+/* initialize */
+document.addEventListener('DOMContentLoaded', init);
+</script>
+
+</body>
+</html>
