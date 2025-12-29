@@ -2,7 +2,14 @@
   "testId": "TRACK_MACHINE_TEST_100",
   "subject": "Railway Track Machine / Technical",
   "language": "English + Hindi",
-  "time": 120,
+  "exam": {
+    "totalTime": 90
+  },
+
+  "marksRule": {
+    "correct": 1,
+    "negative": 0.33
+  },
   "questions": [
     {
       "id": 1,
