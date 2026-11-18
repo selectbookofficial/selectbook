@@ -1,0 +1,1994 @@
+{
+  "testId": "TRACK_MACHINE_TEST_165",
+  "subject": "Railway Track Machine / Technical",
+  "language": "English + Hindi",
+  "exam": {
+    "totalTime": 90
+  },
+  "marksRule": {
+    "correct": 1,
+    "negative": 0.33
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "General Rules ______ द्वारा बनाए जाते हैं।\nGeneral Rules are framed by",
+      "options": [
+        "भारत सरकार / Government of India",
+        "Authorized Officer",
+        "महाप्रबंधक / General Manager",
+        "PCOM"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 2,
+      "text": "Approved special instructions ______ द्वारा जारी या अनुमोदित किए जाते हैं।\nApproved special instructions are issued or approved by",
+      "options": [
+        "PCOM",
+        "Authorized Officer",
+        "CRS",
+        "Railway Board"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 3,
+      "text": "अगले block section में गाड़ी के प्रवेश को नियंत्रित करने वाला station का fixed stop signal ______ होता है।\nA fixed stop signal of a station controlling the entry of trains into next block section is",
+      "options": [
+        "FSS",
+        "LSS",
+        "Outer",
+        "Home"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 4,
+      "text": "इसमें किसी line पर या line को foul करती हुई गाड़ी, वाहन या obstacle, अथवा कोई भी ऐसी स्थिति शामिल है जो गाड़ियों के लिए खतरनाक हो।\nThis includes a train, vehicle or obstacle on or fouling a line, or any condition which is dangerous to trains.",
+      "options": [
+        "Shunting",
+        "Connection",
+        "Communication",
+        "Obstruction"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 5,
+      "text": "Special instructions ______ द्वारा जारी किए जाते हैं।\nSpecial instructions are issued by",
+      "options": [
+        "CTM",
+        "CSO",
+        "Authorised Officer",
+        "Railway Board"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 6,
+      "text": "Block station पर Station Limits ______ के बीच होती हैं।\nAt a Block station the Station Limits are between",
+      "options": [
+        "दो outermost signals / two outermost signals",
+        "दो outer signals / two outer signals",
+        "दो FSS / two FSS",
+        "दो LSS / two LSS"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 7,
+      "text": "Double line पर Multiple Aspect Signalling वाले Class ‘B’ station पर, station section ______ के बीच होता है।\nOn Double line class ‘B’ station Multiple Aspect Signalling, station section lies between",
+      "options": [
+        "सबसे बाहरी (outermost) facing points से LSS तक / outermost facing points to LSS",
+        "BSLB से LSS तक / BSLB to LSS",
+        "A या B में से कोई एक / either A or B",
+        "उपर्युक्त में से कोई नहीं / none of above"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 8,
+      "text": "Single line पर Multiple Aspect Signalling वाले Class ‘B’ station पर, station section ______ के बीच होता है।\nOn single line ‘B’ class MAS station, Station section lies between",
+      "options": [
+        "दो Advance Starters / two Advance Starters",
+        "दो SLBs / two SLBs",
+        "दो सबसे बाहरी (outer most) facing points / two outer most facing points",
+        "उपर्युक्त में से कोई भी एक / any one of the above"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 9,
+      "text": "किसी रेलवे के किसी भी भाग पर गाड़ियों के संचालन के लिए उस समय अपनाई गई प्रणाली ______ कहलाती है।\nThe system adopted for the time being for the working of trains on any portion of a railway is known as",
+      "options": [
+        "System of controlling",
+        "Direction of traffic",
+        "System of working",
+        "इनमें से कोई नहीं / none of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 10,
+      "text": "गाड़ियों के संचालन से सीधे जुड़ा कोई भी Railway Servant अपनी ड्यूटी शुरू करने से ______ के भीतर कोई शराब, नींद लाने वाली, नशीली या उत्तेजक दवा अथवा उनसे बनी कोई वस्तु नहीं लेगा।\nNo Railway Servant directly connected with the working of trains shall take or use any alcoholic drink, sedative, narcotic or stimulant drug or preparation before the commencement of his duty within",
+      "options": [
+        "6 घंटे / 6 hours",
+        "8 घंटे / 8 hours",
+        "10 घंटे / 10 hours",
+        "12 घंटे / 12 hours"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 11,
+      "text": "जब Distant signal में दो पीली बत्तियाँ (double yellow) दिखाई जाती हैं, तब aspect ______ होता है।\nWhenever double yellow lights are exhibited in Distant signal the Aspect is",
+      "options": [
+        "Caution",
+        "Attention",
+        "Stop (रुकें) / Stop",
+        "Proceed (आगे बढ़ें) / Proceed"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 12,
+      "text": "जब Distant signal में एक पीली बत्ती (single yellow) दिखाई जाती है, तब aspect ______ होता है।\nWhenever single yellow light is exhibited in Distant signal the Aspect is",
+      "options": [
+        "Caution",
+        "Attention",
+        "धीरे-धीरे आगे बढ़ें (Proceed slow) / Proceed slow",
+        "आगे बढ़ें (Proceed) / Proceed"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 13,
+      "text": "Caution aspect में Distant signal का संकेत ______ है।\nThe indication of the Distant signal in Caution Aspect is",
+      "options": [
+        "तुरंत रुकें (Stop dead) / Stop dead",
+        "आगे बढ़ें (Proceed) / Proceed",
+        "आगे बढ़ें और अगले stop signal को restricted speed पर पास करने के लिए तैयार रहें / Proceed and be prepared to pass the next stop signal at a restrictive speed",
+        "आगे बढ़ें और अगले stop signal पर रुकने के लिए तैयार रहें / Proceed and be prepared to stop at the next stop signal"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 14,
+      "text": "Single distant क्षेत्र में, यदि Distant signal ‘Proceed’ aspect दिखा रहा है, तो इसका अर्थ है ---\nIn single distant area, if Distant signal is showing proceed aspect, it means ---",
+      "options": [
+        "Stop dead",
+        "गाड़ी को loop line में लिया जा रहा है / Train is admitted on to loop line",
+        "गाड़ी main line से बिना रुके निकलेगी, आगे block section free है / Train is run through via main line, block section ahead is free",
+        "गाड़ी को station पर रोकने के लिए main line में लिया जा रहा है / Train is admitted on to main line, to stop at station"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 15,
+      "text": "Single distant क्षेत्र में, यदि Distant signal ‘Attention’ aspect दिखा रहा है, तो इसका अर्थ है\nIn single distant area, If distant signal is showing attention aspect it means",
+      "options": [
+        "गाड़ी को loop line में लिया जा रहा है / Train is admitted on to loop line",
+        "गाड़ी loop line से बिना रुके निकलेगी, आगे block section free है / Train is run through via loop line, block section ahead is free",
+        "गाड़ी को station पर रोकने के लिए main line में लिया जा रहा है / Train is admitted on to main line, to stop at station",
+        "उपर्युक्त में से कोई भी / Any of the above"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 16,
+      "text": "वह signal जो आगे के stop signal का aspect बताता है, ______ है।\nSignal which tells about the aspect of stop signal ahead is",
+      "options": [
+        "Outer",
+        "Distant",
+        "Advance starter",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 17,
+      "text": "Double distant signal क्षेत्र में Distant signal का normal aspect ______ होता है।\nThe normal aspect of Distant signal on double distant signal area is",
+      "options": [
+        "Caution",
+        "Attention",
+        "Stop (रुकें) / Stop",
+        "Proceed (आगे बढ़ें) / Proceed"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 18,
+      "text": "जब colour light Distant signal को Gate/LSS/IB के साथ combine किया जाता है, तो उस signal का normal aspect ______ होता है।\nWhen colour light Distant signal is combined with Gate/LSS/IB, normal aspect of that signal is",
+      "options": [
+        "Stop (रुकें) / Stop",
+        "Caution",
+        "Attention",
+        "Proceed (आगे बढ़ें) / Proceed"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 19,
+      "text": "जब colour light Calling-on signal को ‘OFF’ किया जाता है, तब ______ बत्ती दिखाई देती है।\nThe light that is displayed when colour light Calling-on signal is taken ‘OFF’",
+      "options": [
+        "छोटी पीली (miniature yellow) / Miniature yellow",
+        "छोटी लाल (miniature red) / Miniature red",
+        "हरी (Green) / Green",
+        "पीली (Yellow) / Yellow"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 20,
+      "text": "Calling-on signal के ‘OFF’ होने पर संकेत ______ है।\nThe indication of the Calling-on signal when taken ‘OFF’ is",
+      "options": [
+        "आगे बढ़ें और अगले stop signal पर रुकने के लिए तैयार रहें / Proceed and be prepared to stop at next stop signal",
+        "रुकें और उसके बाद सावधानी से आगे बढ़ें तथा short stop या किसी obstruction पर रुकने के लिए तैयार रहें / Stop and then draw ahead with caution and be prepared to stop short or any obstruction",
+        "Stop dead (तुरंत रुकें) / Stop dead",
+        "सावधानी से आगे बढ़ें / Proceed cautiously"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 21,
+      "text": "Calling-on signal का उपयोग ______ अवसरों पर किया जा सकता है।\nThe occasions when Calling-on signal can be used are",
+      "options": [
+        "Obstructed line पर गाड़ी लेते समय / Receiving a train on obstructed line",
+        "जब ऊपर वाला signal defective हो / When signal above is defective",
+        "A या B में से कोई एक / Either A or B",
+        "उपर्युक्त में से कोई नहीं / None of the above"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 22,
+      "text": "Calling-on signal को ‘OFF’ करने के लिए गाड़ी को ______ पर आकर रुकना होगा।\nTo take “OFF” Calling-on signal, the train must come to a stop on",
+      "options": [
+        "Axle counter",
+        "Free zone",
+        "Calling-on zone / Calling on zone",
+        "Distant signal"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 23,
+      "text": "Stop signal के नीचे लगा Shunt signal ‘ON’ position में ______ दिखाता है।\nShunt signal below stop signal, in ‘ON’ position will show ----------.",
+      "options": [
+        "लाल बत्ती / Red light",
+        "क्षैतिज (horizontal) रूप में दो सफेद बत्तियाँ / Two white lights horizontally",
+        "कोई बत्ती नहीं / No light",
+        "पीली बत्ती / Yellow light"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 24,
+      "text": "Independent shunt signal का ‘ON’ पर aspect ______ होता है।\nThe Aspect of independent shunt signal at ‘ON’ is",
+      "options": [
+        "Stop (रुकें) / Stop",
+        "Caution",
+        "Attention",
+        "कोई बत्ती नहीं / No light"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 25,
+      "text": "Position light shunt signal के ‘OFF’ position में ______ colour lights दिखाई जाती हैं।\nThe colour lights exhibited in Position light shunt signal in ‘OFF’ position is.",
+      "options": [
+        "क्षैतिज (horizontal) रूप में दो सफेद बत्तियाँ / Two white lights horizontally",
+        "Diagonal रूप में दो सफेद बत्तियाँ / Two white lights diagonally",
+        "दो हरी बत्तियाँ / Two green lights",
+        "दो पीली बत्तियाँ / Two yellow lights"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 26,
+      "text": "Stop signal के नीचे लगे खराब independent shunt signal या shunt signal को ‘ON’ में पास करने का authority ______ है।\nThe authority to pass defective independent shunt signal or shunt signal below stop signal at “ON”. is",
+      "options": [
+        "T.369 (1)",
+        "T.806",
+        "PLCT",
+        "T.369(3b)+PHS"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 27,
+      "text": "जब कोई fixed signal उपयोग में नहीं होता, तो उसकी पहचान ______ द्वारा की जाती है।\nWhen a fixed signal is not in use, it shall be distinguished by",
+      "options": [
+        "दो crossed bars / Two crossed bars",
+        "दो parallel bars / Two parallel bars",
+        "दो horizontal bars / Two horizontal bars",
+        "एक vertical bar / One vertical bar"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 28,
+      "text": "Route indicators को ______ माना जाता है।\nRoute indicators are treated as ------------.",
+      "options": [
+        "Permissive signals",
+        "Stop signals",
+        "Subsidiary signals",
+        "Duplicate signals"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 29,
+      "text": "जब कोई signal नया लगाया जाता है या उसका स्थान बदला जाता है, तो ______ की अवधि के लिए Caution Order दिया जाएगा।\nWhen a signal is newly erected or shifted, caution order shall be given for a period of",
+      "options": [
+        "15 दिन / 15 days",
+        "10 दिन / 10 days",
+        "90 दिन / 90 days",
+        "16 दिन / 16 days"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 30,
+      "text": "Gate signal की पहचान ______ marker board से की जाती है।\nThe marker board by which Gate signal is identified by",
+      "options": [
+        "‘IB’",
+        "‘P’",
+        "‘G’",
+        "‘A’"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 31,
+      "text": "Automatic signals को छोड़कर, fixed signals की normal position में aspect ______ होता है।\nThe aspect in the normal position of fixed signals except Automatic Signals is",
+      "options": [
+        "Stop (रुकें) / Stop",
+        "Caution",
+        "Proceed (आगे बढ़ें) / Proceed",
+        "Most restrictive aspect"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 32,
+      "text": "Shunting के प्रयोजन के लिए जिन signals का उपयोग वर्जित है, वे हैं\nThe signals that are prohibited to be used for shunting purposes is/are",
+      "options": [
+        "Outer",
+        "Home",
+        "LSS",
+        "उपर्युक्त सभी / All the above"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 33,
+      "text": "Slip siding ______ की सुरक्षा के लिए लगाई जाती है।\nSlip siding is intended to protect",
+      "options": [
+        "Outlying siding",
+        "Block section",
+        "Station section",
+        "Station limits"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 34,
+      "text": "Catch siding ______ की सुरक्षा के लिए लगाई जाती है।\nCatch siding is intended to protect",
+      "options": [
+        "Outlying siding",
+        "Block section",
+        "Station section/Station",
+        "Station limits"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 35,
+      "text": "किसी व्यक्ति द्वारा अपने शरीर के सामने horizontal सफेद बत्ती को तेजी से हिलाना ______ का संकेत है।\nViolently waving a white light horizontally across the body of a person indicates",
+      "options": [
+        "Train parting",
+        "दिखाने वाले व्यक्ति से दूर जाएँ / Move away from the person showing",
+        "आगे बढ़ें (Proceed) / Proceed",
+        "तुरंत रुकें (Stop dead) / Stop dead"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 36,
+      "text": "Detonators को ______ भी कहा जाता है।\nDetonators are also known as",
+      "options": [
+        "Fog signals",
+        "Flare signals",
+        "Illuminating signal",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 37,
+      "text": "वर्ष 2010 के दौरान और उसके बाद बने Detonator का सामान्य जीवनकाल (normal life) ______ है।\nNormal life of a detonator manufactured during 2010 and afterwards is --------",
+      "options": [
+        "3 वर्ष / 3 years",
+        "5 वर्ष / 5 years",
+        "7 वर्ष / 7 years",
+        "10 वर्ष / 10 years"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 38,
+      "text": "सफल परीक्षण (testing) के बाद Detonator की अवधि बढ़ाने (extension) की अधिकतम संख्या ______ है।\nThe maximum number of extensions after successful testing of the detonator is",
+      "options": [
+        "एक / One",
+        "दो / Two",
+        "तीन / Three",
+        "कितनी भी / Any number"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 39,
+      "text": "रात के समय किसी obstruction के बारे में आने वाली गाड़ी को चेतावनी देने के लिए उपयोग किया जाने वाला signal ______ है।\nThe signals to be used to warn the incoming train of an obstruction at night shall be a",
+      "options": [
+        "Flashing amber light",
+        "लाल झंडी (Red flag) / Red flag",
+        "Red flashing hand signal lamp",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 40,
+      "text": "पूरी तरह बिजली जाने (complete power off) की स्थिति में Blank signal को ______ माना जाए।\nA blank signal under complete power off situation is to be treated as",
+      "options": [
+        "Defective signal",
+        "Signal at off",
+        "No signal",
+        "उपर्युक्त में से कोई नहीं / None of above"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 41,
+      "text": "जब Home signal defective हो और पीछे के SM द्वारा T.369(1) से pre warning दी गई हो, तब TTM Operator/Tower Car Driver ऐसे signal को ______ मिलने पर पार कर सकता है।\nWhen home is defective and pre warning is given by rear SM T.369(1), such signal can be passed by TTM Operator/Tower Car Driver on receipt of ---------",
+      "options": [
+        "खराब signal के पास PHS / PHS at the foot of the defective signal",
+        "पहले facing points पर PHS / PHS at the first facing points",
+        "T.369 (3b) + PHS",
+        "SPT के माध्यम से PN / PN through SPT"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 42,
+      "text": "खराब signal को पार करने का Advance authority ______ है।\nAdvance authority to pass defective signal is ----------.",
+      "options": [
+        "T.369 (3b)",
+        "T.369 (1)",
+        "T/C.1425",
+        "T.409"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 43,
+      "text": "खराब Starter signal (यदि वह LSS नहीं है) को पार करने का authority ______ है।\nAuthority to pass defective starter signal (if it is not LSS) is",
+      "options": [
+        "Calling-on signal को ‘OFF’ में लिया गया / Calling on signal taken off",
+        "T.369 (3b) + PHS",
+        "A या B में से कोई एक / Either A or B",
+        "PLCT"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 44,
+      "text": "Double line/Single line token-less section पर Absolute Block system में LSS defective होने पर आगे बढ़ने का authority ______ है।\nOn Double line or Single line token less section in Absolute Block system when LSS is defective Authority to proceed is",
+      "options": [
+        "T.369 (3b)",
+        "PLCT",
+        "T.806 + PN",
+        "T/C.602"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 45,
+      "text": "दिन के समय जब Gate signal ‘ON’ पर हो, तो TTM Operator/Tower Car Driver ______ प्रतीक्षा करेगा।\nDuring day when Gate signal is at ON, the TTM Operator/Tower Car Driver shall wait for",
+      "options": [
+        "एक मिनट / One minute",
+        "दो मिनट / Two minute",
+        "तीन मिनट / Three minute",
+        "चार मिनट / Four minute"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 46,
+      "text": "रात के समय जब Gate signal ‘ON’ हो, तो TTM Operator/Tower Car Driver signal पर ______ प्रतीक्षा करेगा।\nDuring night when Gate signal is at ON, the TTM Operator/Tower Car Driver shall wait for",
+      "options": [
+        "एक मिनट / One minute",
+        "दो मिनट / Two minute",
+        "तीन मिनट / Three minute",
+        "चार मिनट / Four minute"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 47,
+      "text": "जब Gate signal ‘ON’ हो, तो TTM Operator/Tower Car Driver दिन/रात में क्रमशः एक/दो मिनट प्रतीक्षा करेगा और यदि gateman hand signal दिखा रहा हो, तो TTM Operator/Tower Car Driver ______।\nWhen Gate signal is at ON, the TTM Operator/Tower Car Driver shall wait one/two minutes by day/night and gateman exhibiting hand signals. TTM Operator/Tower Car Driver may",
+      "options": [
+        "Gate पर रुकेगा / Stop at the gate",
+        "MPS पर आगे बढ़ेगा / Proceed at MPS",
+        "सावधानी से आगे बढ़ेगा / Proceed cautiously",
+        "उपर्युक्त में से कोई नहीं / None of above"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 48,
+      "text": "यदि कोई signal colour light की जगह सफेद बत्ती दिखा रहा हो, तो माना जाएगा कि signal ______ दिखा रहा है।\nIf a signal is showing white light in place of a colour light, it is treated as signal is showing ----------.",
+      "options": [
+        "Most restrictive aspect",
+        "Caution aspect",
+        "Attention aspect",
+        "Stop aspect"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 49,
+      "text": "IB signal खराब होने पर station पर TTM Operator/Tower Car Driver को दिया जाने वाला authority ______ है।\nThe authority given to the TTM Operator/Tower Car Driver at station when IB signal is defective",
+      "options": [
+        "Combined PLCT",
+        "T/369 (3b)",
+        "A और B दोनों / Both A & B",
+        "उपर्युक्त में से कोई नहीं / None of above"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 50,
+      "text": "जब IB Signal ‘ON’ पर हो, तो TTM Operator/Tower Car Driver तुरंत रुकेगा और ______ से संपर्क करेगा।\nWhen IB Signal is at “ON” immediately the TTM Operator/Tower Car Driver shall stop and contact",
+      "options": [
+        "आगे के station का SM / SM of advance station",
+        "SCOR",
+        "पीछे के station का SM / SM of rear station",
+        "TPC"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 51,
+      "text": "जब IBS ‘ON’ पर हो और telephone खराब हो, तो TTM Operator/Tower Car Driver ______ प्रतीक्षा करेगा।\nWhen IBS is at “ON” and the telephone is out of order, TTM Operator/Tower Car Driver shall wait for -----------.",
+      "options": [
+        "दो मिनट / Two minutes",
+        "तीन मिनट / Three minutes",
+        "चार मिनट / Four minutes",
+        "पाँच मिनट / Five minutes"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 52,
+      "text": "जब IBS ‘ON’ पर हो और telephone खराब हो, तो पाँच मिनट प्रतीक्षा करने के बाद TTM Operator/Tower Car Driver दृश्यता साफ़ होने/न होने पर अगले station के FSS तक ______ की गति से जाएगा।\nWhen IBS is at “ON” and the telephone is out of order, TTM Operator/Tower Car Driver after waiting for five minutes shall proceed when view is clear/not clear upto FSS of next station speed of",
+      "options": [
+        "10/8 कि.मी./घं. / 10/8 kmph",
+        "25/10 कि.मी./घं. / 25/10 kmph",
+        "20/10 कि.मी./घं. / 20/10 kmph",
+        "15/8 कि.मी./घं. / 15/8 kmph"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 53,
+      "text": "Trailed through points पर किसी भी परिस्थिति में गाड़ी को ______ नहीं किया जाना चाहिए।\nOver the trailed through points, under no circumstances should a train be ----",
+      "options": [
+        "आगे बढ़ाना (move forward) / Move forward",
+        "पीछे हटाना (backed) / Backed",
+        "MPS के साथ चलाना / Run with MPS",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 54,
+      "text": "Detonator के विस्फोट के बाद TTM Operator/Tower Car Driver, आवश्यकतानुसार ______ सहित, हर संभव सावधानी बरतेगा।\nThe TTM Operator/Tower Car Driver after exploding detonator shall take every possible caution as necessary including",
+      "options": [
+        "गति बढ़ाना / Increase of speed",
+        "गाड़ी रोकना / Stop the train",
+        "MPS से आगे बढ़ना / Proceed with MPS",
+        "गति कम करना / Reduction of speed"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 55,
+      "text": "Detonator फोड़ने के बाद, यदि आगे कोई obstruction न मिले, तो TTM Operator/Tower Car Driver ______ की दूरी तक सावधानी से आगे बढ़ने के बाद normal speed ले सकता है।\nAfter exploding the detonator, if no obstruction found further, the TTM Operator/Tower Car Driver, can pick up normal speed after proceeding cautiously up to a distance of ----------.",
+      "options": [
+        "500 मीटर / 500 meters",
+        "एक कि.मी. / One KM",
+        "1.5 कि.मी. / 1.5 KM",
+        "2 कि.मी. / 2 KM"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 56,
+      "text": "FSS के पीछे Signal warning board ______ की दूरी पर लगा होता है।\nIn rear of FSS, the Signal warning board is located at a distance of",
+      "options": [
+        "180 मीटर / 180 mtrs.",
+        "400 मीटर / 400 mtrs.",
+        "1000 मीटर / 1000 mtrs.",
+        "1400 मीटर / 1400 mtrs."
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 57,
+      "text": "घने कोहरे (dense fog) के दौरान, जहाँ Fog Safety device उपलब्ध नहीं है, वहाँ Absolute block system पर गाड़ी की अधिकतम गति ______ तक सीमित होगी।\nDuring dense fog maximum speed of a train on Absolute block system shall be restricted to ____ where Fog Safety device is not provided",
+      "options": [
+        "30 कि.मी./घं. / 30kmph",
+        "50 कि.मी./घं. / 50kmph",
+        "60 कि.मी./घं. / 60kmph",
+        "20 कि.मी./घं. / 20kmph"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 58,
+      "text": "सामान्यतः Non-Interlocked points, turnouts और crossover पर गाड़ियों की गति ______ से अधिक नहीं होनी चाहिए।\nNormally the speed of trains over Non-Interlocked points, turnouts and crossover shall not exceed",
+      "options": [
+        "8 कि.मी./घं. / 8 kmph",
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 59,
+      "text": "रात के समय Last vehicle indicator ______ होगा।\nLast vehicle indicator during night shall be",
+      "options": [
+        "अनुमोदित डिज़ाइन का LV board / L.V board of approved design",
+        "Retro reflective LV board",
+        "लाल flashing बत्ती / Red flashing light",
+        "लाल झंडी / Red flag"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 60,
+      "text": "रेलपथ पर obstruction की स्थिति में, दिन के समय TTM/TCD Operator ______ प्रदर्शित करेगा।\nIn case of obstruction on track, during day TTM / TCD operator must exhibit",
+      "options": [
+        "लाल झंडी / Red flag",
+        "Flashing लाल बत्ती / Flashing red light",
+        "Steady लाल बत्ती / Steady red light",
+        "Amber बत्ती / Amber light"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 61,
+      "text": "रेलपथ पर obstruction की स्थिति में, रात के समय TTM/TCD Operator hand signal lamp से ______ दिखाएगा।\nIn case of obstruction on track, during night TTM/TCD operator must exhibit hand signal lamp showing",
+      "options": [
+        "लाल झंडी / Red flag",
+        "Flashing लाल बत्ती / Red flashing light",
+        "Steady लाल बत्ती / Steady red light",
+        "Amber बत्ती / Amber light"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 62,
+      "text": "Block section में काम करने और उसी station पर वापस आने के लिए material train भेजने हेतु Material Train के LP को दिया जाने वाला authority ______ है।\nTo despatch a material train for working in the block section and return back to the same station, authority given to the LP of Material Train",
+      "options": [
+        "PLCT",
+        "ATP W/O line clear",
+        "T/462",
+        "T/A.462"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 63,
+      "text": "Block section में काम करने और अगले station तक आगे जाने के लिए material train भेजने हेतु Loco Pilot को दिया जाने वाला authority ______ है।\nThe authority given to the Loco Pilot to despatch a material train for working in the block section and proceed to the next station",
+      "options": [
+        "T/462",
+        "T/A.462",
+        "T/465",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 64,
+      "text": "TTM Operator/Tower Car Driver को obstructed line पर गाड़ी लेने के लिए दिया जाने वाला लिखित authority ______ है।\nWritten authority for TTM Operator/Tower Car Driver to receive on to an obstructed line",
+      "options": [
+        "T/511",
+        "Pilot in memo",
+        "T/369(3b)",
+        "T/509"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 65,
+      "text": "Obstructed line पर गाड़ी लेते समय, STOP hand signal obstruction वाले स्थान से कम से कम ______ की दूरी से दिखाया जाएगा।\nWhile receiving a train on an obstructed line, STOP hand signal shall be exhibited from the point of obstruction at a distance of not less than",
+      "options": [
+        "45 मीटर / 45 mtrs",
+        "20 मीटर / 20 mtrs",
+        "120 मीटर / 120 mtrs",
+        "180 मीटर / 180 mtrs"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 66,
+      "text": "TTM Operator/Tower Car Driver को non-signalled line पर गाड़ी लेने के लिए लिखित authority ______ है।\nWritten authority for TTM Operator/Tower Car Driver to receive on to non signalled line -------.",
+      "options": [
+        "T/511",
+        "Pilot in memo",
+        "T/369 (3b)",
+        "T/510"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 67,
+      "text": "Common starter signal वाले station से गाड़ी शुरू करने की लिखित अनुमति ______ है।\nWritten permission to start a train from a station having common starter,",
+      "options": [
+        "T/511",
+        "Pilot out memo",
+        "T/512",
+        "T/509"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 68,
+      "text": "Non-signalled line से गाड़ी रवाना करने के लिए, जहाँ ATP के रूप में tangible authority नहीं दिया गया है, ATP के अतिरिक्त ______ authority भी दिया जाएगा।\nTo despatch a train from non-signaled line, where tangible authority is not given as A T P, authority to be given in addition to ATP",
+      "options": [
+        "T/511",
+        "Pilot out memo",
+        "T/512",
+        "T/509"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 69,
+      "text": "Shunting operations के दौरान गति ______ से अधिक नहीं होनी चाहिए।\nThe speed during shunting operations shall not exceed",
+      "options": [
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph",
+        "8 कि.मी./घं. / 8 kmph"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 70,
+      "text": "Automatic block system में TSL working के दौरान train crew को जारी किया जाने वाला Written Authority ______ है।\nWritten Authority issued to train crew during TSL working in Automatic block system is",
+      "options": [
+        "T/E 602",
+        "T/D 912",
+        "T/E 912",
+        "T/D 602"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 71,
+      "text": "संदेह के मामले को छोड़कर, T car/TTM की shunt movement के दौरान, ______ पर shunting staff को साथ जाने की आवश्यकता नहीं है।\nExcept in case of doubt the shunting staff need not accompany during shunt movement of Tcar/TTM on to a",
+      "options": [
+        "Siding",
+        "Leading cab में Loco Pilot / Loco Pilot in leading cab",
+        "Formation से जोड़ते समय / Attaching to formation",
+        "Free line"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 72,
+      "text": "Shunting करते समय, जो points signals द्वारा सुरक्षित (protected) नहीं हैं, उन्हें निम्न विधियों से lock किया जाना चाहिए\nWhile performing shunting, the points which are not protected by signals must be locked by following methods",
+      "options": [
+        "Clamped और padlocked / Clamped and padlocked",
+        "Cotter bolted और padlocked / Cotter bolted and padlocked",
+        "A या B में से कोई एक / Either A or B",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 73,
+      "text": "Roller bearing wagons की shunting के प्रयोजन के लिए जिस gradient को steep gradient माना जाता है, वह ______ है।\nThe gradient that is considered as steep gradient for the purpose shunting of roller bearing wagons",
+      "options": [
+        "1 में 400 / 1 in 400",
+        "1 में 600 / 1 in 600",
+        "1 में 260 / 1 in 260",
+        "1 में 150 / 1 in 150"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 74,
+      "text": "IBS और Automatic block क्षेत्रों में, जब TTM/TCD Operator रेलपथ में कोई असामान्य स्थिति (abnormal condition) देखता है, तो उपलब्ध साधनों से ______ को सूचित करेगा।\nWhen TTM/TCD operator experienced any abnormal condition in the track, In case of IBS and automatic block territories, the TTM Operator/Tower Car Driver must inform through available means.",
+      "options": [
+        "पीछे के station का Station Master / Station Master in rear",
+        "पहले जा चुकी गाड़ियों के Loco Pilots / Loco pilot of trains already left",
+        "A और B दोनों / Both A and B",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 75,
+      "text": "जब TTM/TCD Operator रेलपथ में कोई असामान्य स्थिति देखता है, तो वह ______ पर गाड़ी रोक देगा।\nWhen TTM/TCD operator experienced any abnormal condition in the track, shall stop at ----------.",
+      "options": [
+        "अगले station के LSS / LSS of next station",
+        "अगले station के Home signal / Home Signal of next station",
+        "Station section के भीतर / Within station section",
+        "Section clear किए बिना अगले block station / Next block station without clearing section"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 76,
+      "text": "जब ‘lurch’ की सूचना मिलती है और बाद में engineering official के बिना गाड़ी भेजी जाती है, तो TTM Operator को Caution Order दिया जाता है कि वह dead stop करे और यदि सुरक्षित समझे तो ______ की गति से आगे बढ़े।\nWhen ‘lurch’ is reported and subsequently a train is sent in the absence of engineering official, caution order is given to the TTM operator to stop dead if considered safe, proceed at a speed of",
+      "options": [
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph",
+        "8 कि.मी./घं. / 8 kmph"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 77,
+      "text": "यदि Mate/Keyman/Patrolman द्वारा 30 मिमी से कम की rail fracture पाई जाती है, तो पहली गाड़ी की गति ______ होगी।\nRail fracture of less than 30mm is detected by mate/ keyman/patrolman, the speed of first train shall be",
+      "options": [
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph",
+        "8 कि.मी./घं. / 8 kmph"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 78,
+      "text": "यदि Mate/Keyman/Patrolman द्वारा 30 मिमी से कम की rail fracture पाई जाती है, तो दूसरी और बाद की गाड़ियों की गति ______ होगी।\nRail fracture of less than 30mm is detected by mate/ keyman/patrolman, the speed of second and subsequent trains shall be",
+      "options": [
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph",
+        "8 कि.मी./घं. / 8 kmph"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 79,
+      "text": "30 मिमी से अधिक की rail fracture या multiple fractures होने पर, गाड़ियों को track पार करने की अनुमति देने के लिए track का प्रमाणन ______ द्वारा किया जाना आवश्यक है।\nRail fracture of more than 30 mm or multiple fractures, to pass trains track is to be certified by",
+      "options": [
+        "AEN",
+        "PWM/PWI",
+        "Keyman",
+        "Gang mate"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 80,
+      "text": "Absolute block system में Temporary Single Line working के दौरान TTM Operator/Tower Car Driver को दिया जाने वाला authority ______ है।\nDuring Temporary Single Line working in Absolute block system, Authority given to TTM Operator / Tower Car Driver is -----------------.",
+      "options": [
+        "PLCT",
+        "CLCT",
+        "T/D 602",
+        "T/369 (3b)"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 81,
+      "text": "Temporary Single Line working के दौरान पहली गाड़ी की गति ______ होगी।\nDuring Temporary Single Line working, the speed of first train shall be --------",
+      "options": [
+        "25 कि.मी./घं. / 25 kmph",
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "MPS (अधिकतम अनुमत गति) / MPS"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 82,
+      "text": "Temporary Single Line working के दौरान जब गाड़ी गलत line (wrong line) पर जा रही हो, तो ATP के अतिरिक्त TTM Operator को ______ switch on करना होगा।\nDuring Temporary Single Line working when the train is proceeding on wrong line, in addition to ATP, TTM operator shall switch on ___________",
+      "options": [
+        "Flasher light",
+        "Amber light",
+        "Tail lamp",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 83,
+      "text": "यदि obstructed block section में relief engine या relief train भेजना आवश्यक हो, तो Absolute Block system में ______ जारी करके भेजी जा सकती है।\nIf it is required to dispatch a relief engine or relief train into obstructed block section, it can be dispatched by issuing _______ in Absolute Block system.",
+      "options": [
+        "T/A 602",
+        "T/B 602",
+        "T/C 602",
+        "T/D 602"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 84,
+      "text": "Double line पर Absolute Block System में, उसी line पर सामने की ओर protection (protection on same line in front) की आवश्यकता तब होती है जब\nOn Double line in Absolute Block System, Protection on same line in front is required when",
+      "options": [
+        "दुर्घटना हुई हो / Accident occurred",
+        "Relief engine माँगी गई हो / Relief engine is asked",
+        "गाड़ी 15 मिनट के लिए रुकी हो / Train stopped for 15 mins.",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 85,
+      "text": "यदि TTM/TCD Operator बिना किसी departure authority के block section में प्रवेश करता है और बाद में अपने Assistant को memo के साथ पीछे के SM के पास भेजता है, तो वह SM ______ देगा।\nIf TTM/TCD operator enters block section with out authority and subsequently sends his Assistant with a memo to SM in rear, that SM shall give --------.",
+      "options": [
+        "PLCT",
+        "Caution order",
+        "T/A.602",
+        "T/369 (3b)"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 86,
+      "text": "यदि TTM/TCD Operator बिना किसी departure authority के block section में प्रवेश करता है और बाद में अपने Assistant को memo के साथ आगे के SM के पास भेजता है, तो वह SM ______ देगा।\nIf TTM/TCD operator enters block section with out authority and subsequently sends his Assistant with a memo to SM in advance, SM shall give --------- .",
+      "options": [
+        "PLCT",
+        "Caution order",
+        "T/A.602",
+        "T/369 (3b)"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 87,
+      "text": "यात्री गाड़ी में आग लगने की घटना में, सबसे पहला उद्देश्य ______ है।\nIn case of fire accident in a passenger carrying train, the first objective to be achieved is to ---------",
+      "options": [
+        "यात्रियों की सुरक्षा / Safety of passengers",
+        "आग बुझाना / Extinguish fire",
+        "आग लगे coach को अलग करना / Isolate fire coach",
+        "Power supply बंद करना / Switch off power supply"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 88,
+      "text": "विद्युत उपकरण (electrical equipment) के किसी भी भाग में आग लगने पर, प्रभावित भाग को सबसे पहले पूरी तरह ______।\nIn the event of a fire on any part of the electrical equipment, the affected part is first to be completely",
+      "options": [
+        "Power supply से अलग (isolate) करें / Isolated from power supply",
+        "आग बुझाएँ / Put off fire",
+        "पहले A और उसके बाद B / First ‘A’ and then ‘B’",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 89,
+      "text": "विद्युत उपकरणों में लगी आग बुझाने के लिए ______ का उपयोग नहीं करना चाहिए।\nThe ----------- shall not be used for extinguishing fires on electrical equipment.",
+      "options": [
+        "Dry chemical powder",
+        "रेत (Sand) / Sand",
+        "पानी (Water) / Water",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 90,
+      "text": "Double line पर, Automatic signal तब तक ‘OFF’ position नहीं लेगा जब तक line केवल अगले Automatic signal तक ही नहीं, बल्कि कम से कम ______ की पर्याप्त दूरी तक clear न हो।\nOn D/L the automatic signal shall not assume OFF position unless the line is clear not only upto the next Automatic signal but also for an adequate distance of not less than -------.",
+      "options": [
+        "180 मीटर / 180 mtrs",
+        "120 मीटर / 120 mtrs",
+        "400 मीटर / 400 mtrs",
+        "100 मीटर / 100 mtrs"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 91,
+      "text": "जब TTM/TCD Operator Automatic signal को ‘ON’ में पास करता है, तो अगला signal ‘OFF’ होने पर भी वह ______ की Speed Restriction का पालन करेगा।\nWhen TTM/TCD operator passes an automatic signal at ON, he shall observe SR of ---------------.even if subsequent signal is “OFF.”",
+      "options": [
+        "8 कि.मी./घं. / 8 kmph",
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "25 कि.मी./घं. / 25 kmph"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 92,
+      "text": "Automatic signal को ‘ON’ पर पास करने के बाद, किसी भी locomotive द्वारा खींची जा रही अगली गाड़ी का Loco Pilot अपनी गाड़ी और आगे वाली गाड़ी के बीच कम से कम ______ की दूरी बनाए रखना सुनिश्चित करेगा।\nAfter passing an automatic signal at ON, the Loco Pilot of the following train hauled by any locomotive shall ensure that a minimum distance to be maintained between his train and preceding train is",
+      "options": [
+        "120 मीटर / 120 mtrs",
+        "तीन OHE mast / Three OHE masts",
+        "150 मीटर या दो OHE mast / 150 mtrs or two OHE masts",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 93,
+      "text": "Automatic block system में Double line पर LSS fail होने पर, TTM Operator/Tower Car Driver को दिए जाने वाले authorities हैं\nWhen LSS fails on double line in automatic block system, authorities to be given to TTM Operator/Tower Car Driver",
+      "options": [
+        "PLCT + 10 कि.मी./घं. का Caution Order / PLCT+C.O of 10kmph",
+        "PLCT + T/A.912",
+        "T/D.912 + T/A.912",
+        "T/369 (3b)"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 94,
+      "text": "जब Single line पर Automatic block signalling section में TTM / Tower Car रुक जाती है और आगे नहीं जा सकती, तो पीछे की ओर ______ पर detonators रखकर उसकी सुरक्षा की जाएगी।\nWhen a TTM / Tower Car is stopped in an automatic block signaling section on single line and train cannot proceed further, it shall be protected in rear duly placing detonators at ------------.",
+      "options": [
+        "250 मी., 500 मी. और 510 मी. / 250M, 500M & 510M",
+        "90 मी., 180 मी. और 190 मी. / 90M, 180M & 190M",
+        "600 मी., 1200 मी. और 1210 मी. / 600M, 1200M & 1210M",
+        "90 मी., 180 मी., 190 मी. और 200 मी. / 90M, 180M, 190M & 200M"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 95,
+      "text": "Relief loco/train ______ की restricted speed से आगे बढ़ेगी।\nRelief loco/train shall proceed with a restricted speed of",
+      "options": [
+        "25 कि.मी./घं. / 25kmph",
+        "15/10 कि.मी./घं. / 15/10kmph",
+        "Normal speed",
+        "15/8 कि.मी./घं. / 15/8 kmph"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 96,
+      "text": "जब Automatic signalling क्षेत्र में Gate stop signal का ‘A’ marker illuminated (प्रदीप्त) हो, तो इसका अर्थ है\nWhen ‘A’ marker is illuminated of Gate stop signal in Automatic signaling territory, it means",
+      "options": [
+        "Gate खुला है / Gate is open",
+        "कुछ नहीं कह सकते / Cannot say anything",
+        "Gate बंद है / Gate is closed",
+        "Gate खराब है / Gate is defective"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 97,
+      "text": "जब Automatic signalling क्षेत्र में Gate signal ‘ON’ पर हो और ‘A’ marker illuminated न हो, तो TTM/TCD Operator पास करने के ______ का पालन करेगा।\nWhen Gate signal in Automatic signaling territory is at ‘ON’ and ‘A’ marker is not illuminated, TTM/TCD operator shall follow the rules of passing -------------.",
+      "options": [
+        "Gate rules",
+        "Gate rules और Automatic rules / Gate rules and automatic rules",
+        "केवल Automatic rules / Automatic rule only",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 98,
+      "text": "TTM/TCD Operator ‘A’ marker बुझा (extinguished) होने पर Semi Automatic signal को ‘ON’ में ______ लिखित authority मिलने पर पास करेगा।\nTTM/TCD operator shall pass a Semi Automatic signal with extinguished ‘A’ marker at ‘ON’ on receipt of ----------- written authority.",
+      "options": [
+        "T/369 (3b)",
+        "T/A 912",
+        "T/D 912",
+        "T/C 912"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 99,
+      "text": "Automatic signalling क्षेत्र में, जब station limits के भीतर किसी level crossing gate की सुरक्षा के लिए semi-automatic stop signal आवश्यक हो, तो काली पृष्ठभूमि पर illuminated ‘A’ marker के अतिरिक्त signal में ______ उपलब्ध कराया जाएगा।\nIn Automatic signaling territory, when a semi–automatic stop signal is required to protect a level crossing gate within Station limits, the signal shall be provided with___, in addition to the illuminated “A” marker against black background.",
+      "options": [
+        "AG marker",
+        "G marker",
+        "Illuminated AG marker",
+        "Illuminated G marker"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 100,
+      "text": "Automatic signalling क्षेत्र में, जब station limits के भीतर किसी level crossing gate की सुरक्षा के लिए semi-automatic stop signal आवश्यक हो, तब निम्न में से किस स्थिति में वह signal Manual stop signal के रूप में कार्य करता माना जाएगा।\nIn Automatic signaling territory, when a semi–automatic stop signal is required to protect a level crossing gate in Station limits, in which of the following cases that signal shall be deemed to work as a Manual stop signal.",
+      "options": [
+        "Illuminated ‘A’ और ‘AG’ markers एक साथ जले हुए न हों / Illuminated ‘A’ and ‘AG’ markers not lit together",
+        "Illuminated ‘A’ और ‘AG’ markers एक साथ जले हुए हों / Illuminated ‘A’ and ‘AG’ markers lit together",
+        "केवल Illuminated ‘A’ marker जला हो / Only illuminated “A” Marker lit",
+        "A और B दोनों / Both A & B"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 101,
+      "text": "Automatic signalling क्षेत्र में, जब station limits के भीतर किसी level crossing gate की सुरक्षा के लिए semi-automatic stop signal आवश्यक हो, तब जब level crossing gate सड़क यातायात के लिए बंद और locked हो तथा points (जहाँ हों) main line के लिए सही सेट और route के लिए locked हों, तो ______ जलेगा।\nIn Automatic signaling territory, when a semi–automatic stop signal is required to protect a level crossing gate in Station limits, When the level crossing gate is closed and locked against road traffic and points where existing, are correctly set for mainline and locked for the route then___will be lit.",
+      "options": [
+        "केवल ‘A’ marker जलेगा / Only “A” marker shall be lit.",
+        "कोई marker नहीं जलेगा / No marker shall be lit.",
+        "‘A’ और ‘AG’ दोनों markers जलेंगे / Both “A” and “AG” marker shall be lit.",
+        "केवल ‘AG’ marker जलेगा / Only “AG” marker shall be lit."
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 102,
+      "text": "जब ‘lurch’ की सूचना मिलती है और बाद में engineering official के बिना गाड़ी भेजी जाती है, तो LP को Caution Order दिया जाता है कि वह dead stop करे और यदि सुरक्षित समझे तो ______ की गति से आगे बढ़े।\nWhen ‘lurch’ is reported and subsequently a train is sent in the absence of engineering official, caution order is given to the LP to stop dead if considered safe, proceed at a speed of",
+      "options": [
+        "10 कि.मी./घं. / 10 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. / 30 kmph",
+        "8 कि.मी./घं. / 8 kmph"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 103,
+      "text": "Automatic block system में signals के लंबे समय तक fail रहने के दौरान, दो block stations के बीच के section को ______ माना जाएगा।\nDuring prolonged failure of signals in automatic block system, the section between the two block stations will be treated as ---------------",
+      "options": [
+        "Double block section",
+        "Single block section",
+        "TSL working",
+        "उपर्युक्त सभी / All the above"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 104,
+      "text": "Block rules के उल्लंघन (breach) का एक उदाहरण है\nAn example of breach of block rules is",
+      "options": [
+        "गलत line पर गाड़ी का प्रवेश / Train entered in to wrong line",
+        "ATP के बिना गाड़ी का block section में प्रवेश / Train entered in to B/S without a ATP",
+        "Siding में गाड़ी का प्रवेश / Train entered in to siding",
+        "उपर्युक्त सभी / All the above"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 105,
+      "text": "Single line token-less section/Double line section पर आगे बढ़ने का सामान्य authority ______ है।\nThe normal authority to proceed on Single Line token less sections/Double line sections",
+      "options": [
+        "LSS की ‘OFF’ position / ‘OFF’ position of LSS",
+        "PLCT",
+        "PLCT या Token / PLCT or token",
+        "SM द्वारा हस्ताक्षरित कोई भी लिखित दस्तावेज़ / Any written document signed by SM"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 106,
+      "text": "Line block या Integrated block या Shadow block के दौरान अनुमत material trains की संख्या ______ है।\nNo. of material trains permitted during the line block or integrated block or shadow block is ---------------.",
+      "options": [
+        "तीन तक / Up to three",
+        "एक / One",
+        "कितनी भी / Any number",
+        "दो / Two"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 107,
+      "text": "Line block के दौरान, सही line पर आने वाली units को लेने के लिए, पहली unit को लेने का authority ______ है।\nDuring line block, to receive the units coming on right line, authority to receive the first unit ---------------.",
+      "options": [
+        "Signals को ‘OFF’ करना / Taking ‘off’ signals",
+        "Pilot in memo",
+        "T/509",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 108,
+      "text": "Line/Integrated/Shadow block के दौरान, यदि units गलत line पर आ रही हों, तो units को ______ पर लिया जाएगा, जिसमें वर्दीधारी सक्षम railway servant द्वारा pilot करते हुए station section में प्रवेश कराया जाए, गाड़ी को सावधानी से shunt signal तक लाया जाए और Shunt signal का ‘Off’ aspect देखने के बाद ही आगे बढ़ा जाए।\nDuring line/integrated/shadow block, if the units are coming on wrong line, units shall be received on ----------------.to enter the station section duly being piloted in by a competent railway servant in uniform and draw his train cautiously upto the shunt signal and move further on observing “Off” aspect of the Shunt signal.",
+      "options": [
+        "Signals को ‘OFF’ करके / Taking ‘off’ signals",
+        "Pilot in memo",
+        "T/510",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 109,
+      "text": "Obstruction (work spot) से ______ की दूरी पर Engineering Stop indicator लगाया जाता है।\nFrom the obstruction (work spot), Engg. Stop indicator is located at",
+      "options": [
+        "45 मीटर / 45 mtrs.",
+        "1200 मीटर / 1200 mtrs.",
+        "400 मीटर / 400 mtrs.",
+        "30 मीटर / 30 mtrs."
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 110,
+      "text": "Obstruction (work spot) से ______ पहले Engineering Speed indicator लगाया जाता है।\nFrom the obstruction (work spot) Engg. Speed indicator is located at",
+      "options": [
+        "45 मीटर / 45 mtrs.",
+        "1200 मीटर / 1200 mtrs.",
+        "400 मीटर / 400 mtrs.",
+        "30 मीटर / 30 mtrs."
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 111,
+      "text": "BG पर, Obstruction (work spot) से ______ की दूरी पर Engineering Caution indicator लगाया जाता है।\nOn B.G, from the obstruction (work spot) Engg. Caution indicator is located at --------------.",
+      "options": [
+        "45 मीटर / 45 mtrs.",
+        "1200 मीटर / 1200 mtrs.",
+        "400 मीटर / 400 mtrs.",
+        "30 मीटर / 30 mtrs."
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 112,
+      "text": "Stop indicator पर रुकने के बाद, Loco Pilot इस book में हस्ताक्षर करेगा और ______ की restricted speed से आगे बढ़ेगा।\nAfter stopping at the Stop Indicator, Loco Pilot shall sign in this book and proceed with restricted speed of",
+      "options": [
+        "ER-7, 10 कि.मी./घं. / ER-7, 10 KMPH",
+        "ER-7, 8 कि.मी./घं. / ER-7, 8 KMPH",
+        "RS-6, 8 कि.मी./घं. / RS-6, 8 KMPH",
+        "Rough Journal, 10 कि.मी./घं. / Rough Journal, 10 KMPH"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 113,
+      "text": "यदि पानी का स्तर ballast level से ऊपर हो, लेकिन rail level से नीचे हो, तो गाड़ी को निम्नानुसार अनुमति दी जाए\nWhen water rises above the ballast level but below rail level, train should be allowed as per following",
+      "options": [
+        "गाड़ी को अनुमति नहीं दी जाएगी / A train shall not be allowed",
+        "गाड़ी रुके और पानी का वेग (velocity) कम होने के बाद आगे बढ़े / Train must stop and proceed after the velocity of the water is reduced.",
+        "गाड़ी रुके और PWI द्वारा pilot की जाए / Train must stop and be piloted by the PWI.",
+        "गाड़ी से पहले दो व्यक्ति sleepers के दोनों सिरों पर एक-एक होकर साथ-साथ track पर पैदल चलें / Track should be walked over by two men abreast one at either end of the sleepers before the train"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 114,
+      "text": "जब पानी rails के ऊपर से बह रहा हो –\nWhen water overflows above the rails –",
+      "options": [
+        "गाड़ी को अनुमति नहीं दी जाएगी / A train shall not be allowed",
+        "गाड़ी रुके और पानी का वेग कम होने के बाद आगे बढ़े / Train must stop and proceed after the velocity of the water is reduced.",
+        "गाड़ी रुके और PWI द्वारा pilot की जाए / Train must stop and be piloted by the PWI.",
+        "गाड़ी रुके और Gangman द्वारा pilot की जाए / Train must stop and be piloted by gang man"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 115,
+      "text": "Notice stations, जहाँ Divisional Caution Order जारी किए जाते हैं, ______ में निर्दिष्ट होते हैं।\nThe notice stations, where divisional Caution Order shall be issued are specified in the",
+      "options": [
+        "Working Time Table",
+        "Rake link",
+        "CTR",
+        "Gradient chart"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 116,
+      "text": "Caution Order में संबंधित stations के नाम पूरे लिखे जाने चाहिए, और ______ का उपयोग नहीं किया जाना चाहिए।\nIn the Caution Order, the names of the stations concerned should be written in full, and ----------- should not be used.",
+      "options": [
+        "Letters (अक्षर) / Letters",
+        "Codes",
+        "Capitals",
+        "Numerals (अंक) / Numerals"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 117,
+      "text": "Caution Order में लागू सभी speed restrictions ______ क्रम में होने चाहिए।\nThe Caution Order should have all the speed restrictions in force in",
+      "options": [
+        "Geological order",
+        "Gradient wise",
+        "Geographical order",
+        "Control section wise"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 118,
+      "text": "TTM Operator/Tower Car Driver तब तक notice station से गाड़ी शुरू नहीं करेगा जब तक उसे ______ प्राप्त न हो जाए।\nThe TTM Operator/Tower Car Driver shall not start from a notice station until they have received",
+      "options": [
+        "Divisional CO",
+        "PSR",
+        "TSR",
+        "Memo"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 119,
+      "text": "गाड़ियों के गुजरने के दौरान, दिन के समय और रात के समय Gateman की स्थिति ______ है।\nDuring passage of trains, the position of Gateman during day time and during night time is -------------------.",
+      "options": [
+        "खुले (unfurled) झंडे / हरी बत्ती पकड़े हुए / Holding unfurled flags/green light",
+        "लाल और हरे झंडे लपेटे (furled) हुए / सफेद बत्ती पकड़े हुए / Holding furled red and green flags/white light",
+        "हरी झंडी / हरी बत्ती / Green flag/green light",
+        "खुली हरी झंडी / कोई बत्ती नहीं / Holding unfurled green flag/no light"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 120,
+      "text": "Route indicator के बिना एक common NI Home signal, गाड़ियों को लेने (reception) के लिए ______ के साथ उपलब्ध कराया जाना चाहिए।\nA common NI home signal without route indicator should be provided for any reception of trains, with",
+      "options": [
+        "Stop और Caution aspect / Stop & caution aspect",
+        "Stop और Proceed aspect / Stop & proceed aspect",
+        "Proceed with Caution aspect",
+        "कोई aspect नहीं / No aspect at all"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 121,
+      "text": "Non-interlocking working के दौरान, Free NI Home signal को ______ से अधिक न होने वाली caution aspect speed पर ‘OFF’ किया जा सकता है।\nDuring non interlocking working, Free NI Home signal can be taken “off” to caution aspect speed not exceeding ------------------.",
+      "options": [
+        "Interlocking standard के अनुसार / As per standard of interlocking",
+        "20 कि.मी./घं. / 20 kmph",
+        "15 कि.मी./घं. / 15 kmph",
+        "30 कि.मी./घं. या जैसा लागू हो / 30 kmph or as applicable"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 122,
+      "text": "NI working के दौरान TTM/Tcar Operator सबसे बाहरी facing points को, signals ‘OFF’ होने पर भी, तब तक पार नहीं करेगा जब तक उसे ______ भी प्राप्त न हो।\nDuring NI working, the TTM/Tcar operator shall not pass the outermost facing points even though signals are taken off unless ____also receives.",
+      "options": [
+        "Points पर Caution order / Caution order at points",
+        "Proceed hand signal",
+        "T/369 (3b)",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 123,
+      "text": "Standard – II R interlocked stations पर main line points के ऊपर से गाड़ी के लिए अधिकतम अनुमत गति ______ है।\nAt standard – II R interlocked station maximum speed permitted for the train over main line points is ------------.",
+      "options": [
+        "140 कि.मी./घं. / 140 kmph",
+        "75 कि.मी./घं. / 75 kmph",
+        "160 कि.मी./घं. / 160 kmph",
+        "110 कि.मी./घं. / 110 kmph"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 124,
+      "text": "Train shunting के मामले में लिखित निर्देश Form No. ______ में दिए जाएँगे।\nIn case of train shunting, written instructions will be given in form No. ---------",
+      "options": [
+        "T/811",
+        "T/409",
+        "T/806",
+        "T/512"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 125,
+      "text": "Double line पर Absolute block system में LSS के आगे shunting करने के लिए authority ______ है।\nOn Double line, to perform shunting beyond LSS in Absolute block system, authority is -------.",
+      "options": [
+        "T/806 with P.N",
+        "LSS के नीचे का shunt signal ‘OFF’ किया गया / Shunt signal below LSS taken ‘off’",
+        "LSS lever key",
+        "उपर्युक्त में से कोई भी एक / Any one of the above"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 126,
+      "text": "Double line पर, जब SWR में दूर जाती गाड़ी (travelling away train) के पीछे LSS के आगे shunting की अनुमति दी जाती है, तो authority ______ है।\nOn double line, when shunting is permitted beyond LSS in SWR in rear of a travelling away train, the authority is",
+      "options": [
+        "T/806 without P.N",
+        "LSS के नीचे का shunt signal ‘OFF’ किया गया / Shunt signal below LSS taken ‘off’",
+        "A या B में से कोई एक / Either ‘A’ or ‘B’",
+        "T/806 with P.N"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 127,
+      "text": "Single line token-less sections पर Absolute block system में LSS के आगे और FSS तक shunting करने के लिए authority ______ है।\nOn S/L token less sections, in absolute block system to perform shunting beyond LSS and up to FSS, authority is",
+      "options": [
+        "T.806 + shunt key या P.N / T.806 + shunt key or P.N",
+        "LSS के नीचे का shunt signal ‘OFF’ किया गया / Shunt signal below LSS taken ‘off’",
+        "केवल T/806 / T/806 only",
+        "T/806 + वापस आने के लिए लिखित memo / T/806 + written memo to come back"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 128,
+      "text": "Double line पर Absolute block system में Outermost facing points/BSLB के आगे shunting करने के लिए authority ______ है।\nOn double line in absolute block system, to perform shunting beyond Outer most facing points/BSLB, the authority is",
+      "options": [
+        "T/806 + P.N",
+        "T/806 + shunt key",
+        "केवल T/806 / T/806 only",
+        "T/806 + वापस आने के लिए लिखित memo / T/806 + written memo to come back"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 129,
+      "text": "Single line sections पर FSS के आगे shunting करने के लिए TTM Operator/Tower Car Driver को दिया जाने वाला authority ______ है।\nTo shunt beyond the FSS on single line sections, authority to TTM Operator / Tower Car Driver",
+      "options": [
+        "T/806 + P.N",
+        "T/806 + shunt key",
+        "A या B में से कोई एक / Either A or B",
+        "ATP + T/806 + वापस आने के लिए लिखित memo / ATP + T.806 + written memo to come back"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 130,
+      "text": "______ परिणामी दुर्घटना (consequential accident) का एक उदाहरण है।\nAn example of consequential accident is",
+      "options": [
+        "Signal को ‘ON’ पर पास करना / Signal Passing At “ON”",
+        "ATP के बिना block section में प्रवेश करना / Entering into B/S W/O ATP",
+        "गाड़ी में आग लगना / Fire On Train",
+        "Averted collision (निवारक टक्कर) / Averted Collisions"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 131,
+      "text": "संकेतात्मक दुर्घटना (indicative accident) का एक उदाहरण ______ है।\nAn example of indicative accident is",
+      "options": [
+        "Stop signal को ‘ON’ पर पास करना / Passing Stop Signal At “ON”",
+        "गाड़ी में आग लगना / Fire On Train",
+        "Collision (टक्कर) / Collisions",
+        "LC Gate accidents"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 132,
+      "text": "Stop signal को Danger पर पास करना ______ प्रकार की दुर्घटना है।\nPassing stop signal at Danger is this type of accident.",
+      "options": [
+        "Collision (टक्कर) / Collisions",
+        "Averted accident (निवारक दुर्घटना) / Averted Accident",
+        "Breach of block rule",
+        "Indicative accident"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 133,
+      "text": "किसी दुर्घटना में, जब रेल संपत्ति को हुई क्षति ₹2 करोड़ से अधिक हो, तो उसे ______ माना जाएगा।\nIn an accident if the damage to Railway property exceeds Rs.2 CRORES, such accident shall be treated as",
+      "options": [
+        "Serious accident (गंभीर दुर्घटना) / Serious Accident",
+        "Collision (टक्कर) / Collision",
+        "Averted accident (निवारक दुर्घटना) / Averted Accident",
+        "SPAD"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 134,
+      "text": "Station limits के बाहर, Averted collision मानने के लिए दो गाड़ियों के बीच की दूरी ______ होनी चाहिए।\nTo treat as averted collision, outside station limits, the distance between two trains shall be.",
+      "options": [
+        "600 मीटर से कम / Less than 600M",
+        "400 मीटर से कम / Less than 400M",
+        "100 मीटर से कम / Less than 100M",
+        "180 मीटर से कम / Less than 180M"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 135,
+      "text": "जब कोई व्यक्ति गाड़ी से टकरा गया हो या कुचल गया हो और उसकी मृत्यु हो गई हो तथा कोई जिम्मेदार व्यक्ति उपलब्ध न हो, तो शव को ______।\nWhen persons are knocked down or run over and dead, no responsible person is available, body shall be",
+      "options": [
+        "अनदेखा किया जाएगा / Ignored",
+        "अगले station पर सूचना दी जाएगी / Inform at next station",
+        "चलते-चलते memo गिरा दिया जाएगा / Drop a memo while runs through",
+        "Memo के साथ निकटतम gate lodge या station पर सौंप दिया जाएगा / Handed over the dead body at nearest gate lodge or station with a memo"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 136,
+      "text": "दुर्घटना की श्रेणी ‘SPAD’ को ______ में वर्गीकृत किया गया है।\nThe category of accident ‘SPAD’ is classified in",
+      "options": [
+        "‘F’",
+        "‘G’",
+        "‘H’",
+        "‘J’"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 137,
+      "text": "जब आउट station पर दुर्घटना होती है, main line अवरुद्ध हो और MRT की आवश्यकता हो, तब Accident siren ______ होगा।\nAccident siren when accident takes place at out station, main line obstructed and MRT required is",
+      "options": [
+        "चार लंबे (Four Long) / Four Long",
+        "तीन लंबे एक छोटा (Three Long One Short) / Three Long One Short",
+        "चार लंबे एक छोटा (Four Long One Short) / Four Long One Short",
+        "तीन लंबे (Three Long) / Three Long"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 138,
+      "text": "ART (Accident Relief Train) को दिन/रात में तैयार करके निकालने का target समय ______ है।\nThe target time for turning out ART day and night is",
+      "options": [
+        "15 मिनट और 20 मिनट / 15 minutes & 20 minutes",
+        "30 मिनट और 45 मिनट / 30 minutes & 45 minutes",
+        "1 घंटा और 1½ घंटे / 1 hour and 1 ½ hour",
+        "इनमें से कोई नहीं / None of the above"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 139,
+      "text": "Direct/Indirect dispatch के लिए MRT (Medical Relief Train) को निकालने का target समय ______ है।\nThe target time for turning out MRT for direct/indirect dispatch. is",
+      "options": [
+        "15 मिनट और 20 मिनट / 15 minutes and 20 minutes",
+        "30 मिनट और 45 मिनट / 30 minutes and 45 minutes",
+        "10 मिनट और 15 मिनट / 10 minutes and 15 minutes",
+        "15 मिनट और 30 मिनट / 15 minutes and 30 minutes"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 140,
+      "text": "Level crossing gates के पास पहुँचते समय दी जाने वाली Whistle code ______ है।\nThe Whistle code to be given while approaching Level crossing gates is -------",
+      "options": [
+        "Intermittent long (रुक-रुक कर लंबी) / Intermittent long",
+        "Intermittent short (रुक-रुक कर छोटी) / Intermittent short",
+        "Continuous long (लगातार लंबी) / Continuous long",
+        "One long one short (एक लंबी एक छोटी) / One long one short"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 141,
+      "text": "Automatic block system पर घने कोहरे के दौरान, जब single yellow light दिख रही हो, तब गाड़ी की अधिकतम गति ______ तक सीमित होगी।\nDuring dense fog maximum speed of a train on Automatic block system when it is showing single yellow light shall be restricted to",
+      "options": [
+        "25 कि.मी./घं. / 25kmph",
+        "अगले stop signal पर रुकने योग्य restricted speed / Restricted speed to stop at next stop signal",
+        "60 कि.मी./घं. / 60kmph",
+        "30 कि.मी./घं. / 30kmph"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 142,
+      "text": "Train/Manned Level Crossing accident में मृत्यु होने की स्थिति में अनुग्रह राशि (Ex-gratia) ₹ ______ दी जाती है।\nEx-gratia to be paid In case of death in Train/ manned Level Crossing accident is Rs ---------------.",
+      "options": [
+        "50,000",
+        "1,00,000",
+        "2,50,000",
+        "5,00,000"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 143,
+      "text": "Train/Manned Level Crossing accident में गंभीर चोट (serious injury) की स्थिति में अनुग्रह राशि (Ex-gratia) ₹ ______ दी जाती है।\nEx-gratia to be paid in case of serious injury in a Train/manned LC gate accident is Rs. ---------------.",
+      "options": [
+        "50,000",
+        "1,00,000",
+        "2,50,000",
+        "5,00,000"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 144,
+      "text": "Train/Manned Level Crossing accident में साधारण चोट (simple injury) की स्थिति में अनुग्रह राशि (Ex-gratia) ₹ ______ दी जाती है।\nEx-gratia to be paid in case of simple injury in a Train / manned LC gate accident is Rs. ------------.",
+      "options": [
+        "50,000",
+        "1,00,000",
+        "2,50,000",
+        "5,00,000"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 145,
+      "text": "Railway administration, Railway servants को Rule books की copy ______ में उपलब्ध कराने की अनुमति दे सकता है।\nThe railway administration can permit a copy of rule books to be supplied to Railway Servants in --------------------------",
+      "options": [
+        "Electronic copy",
+        "Hard copy",
+        "A या B में से कोई एक / Either A or B",
+        "इनमें से कोई नहीं / None of the above"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 146,
+      "text": "Intermediate Block Signalling system ______ पर उपलब्ध कराई जा सकती है।\nIntermediate Block Signalling system may be provided on",
+      "options": [
+        "Single line",
+        "Double line",
+        "Multiple lines",
+        "उपर्युक्त में से कोई भी / Any of the above"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 147,
+      "text": "सभी Track maintenance machines ______ द्वारा निर्धारित गति से चलेंगी, जो लागू अन्य speed restrictions के अधीन होगी।\nAll track maintenance machines shall run at speed prescribed through ____, subject to other speed restrictions in force.",
+      "options": [
+        "Caution order",
+        "Joint safety certificate",
+        "Safety certificate",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 148,
+      "text": "BG पर, जब गाड़ी को रोकना आवश्यक हो और restriction केवल एक दिन या उससे कम के लिए हो, तो Detonators कम से कम ______ की दूरी पर रखे जाएँगे।\nWhen the train is required to stop and the restriction is likely to last only for a day or less, on BG, Detonators shall be placed at a distance of not less than",
+      "options": [
+        "600, 610, 620 मीटर / 600, 610, 620 mtrs.",
+        "1200, 1210, 1220 मीटर / 1200, 1210, 1220 mtrs.",
+        "600, 1200, 1210, 1220 मीटर / 600, 1200, 1210, 1220",
+        "90, 180, 190 मीटर / 90, 180, 190 mtrs."
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 149,
+      "text": "BG पर, जब गाड़ी को रोकना आवश्यक हो और restriction केवल एक दिन या उससे कम के लिए हो, तो Banner flag ______ की दूरी पर प्रदर्शित किया जाएगा।\nWhen the train is required to stop and the restriction is likely to last only for a day or less, on BG a Banner flag shall be exhibited at a distance of",
+      "options": [
+        "600 मीटर / 600 mtrs.",
+        "1200 मीटर / 1200 mtrs.",
+        "400 मीटर / 400 mtrs.",
+        "1000 मीटर / 1000 mtrs."
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 150,
+      "text": "कार्य पूरा होने पर और block section free होना सुनिश्चित करने के बाद, प्रभारी अधिकारी SM को ______ सौंपेगा।\nOn completion of work and after ensuring that the block section is free, the official in charge will hand over to the SM a",
+      "options": [
+        "Work particulars",
+        "Progress certificate",
+        "Safety certificate",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 151,
+      "text": "Line block के दौरान, सही line पर आने वाली units को लेने के लिए, आगे आने वाली (following) units को लेने का authority ______ है।\nDuring line block, to receive the units coming on right line, authority to receive the following units",
+      "options": [
+        "Signals को ‘OFF’ करना / Taking ‘off’ signals",
+        "Pilot in memo",
+        "Calling-on signal या T/509 / Calling on signal or T/509",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 152,
+      "text": "Line/Integrated/Shadow block के दौरान, यदि units को गलत line पर अनुमति दी जाती है, तो units को ______ द्वारा रवाना किया जाएगा।\nDuring line/integrated/shadow block, if the units are allowed on to the wrong line, units shall be dispatch by ________",
+      "options": [
+        "Signals को ‘OFF’ करके / Taking ‘off’ signals",
+        "Pilot in memo",
+        "Pilot out memo",
+        "इनमें से कोई नहीं / None of these"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 153,
+      "text": "जब Material train, TTM और Tower wagon को एक ही block section में काम करने की अनुमति दी जाती है, तो following की गति ______ तक सीमित होती है।\nWhen material train, TTM and Tower wagon are permitted in the same block section to work, the speed for the following is restricted to ----------------.",
+      "options": [
+        "15/8 कि.मी./घं. / 15/8 kmph",
+        "25/10 कि.मी./घं. / 25/10 kmph",
+        "25/8 कि.मी./घं. / 25/8 kmph",
+        "15/10 कि.मी./घं. / 15/10 kmph"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 154,
+      "text": "जब Material train, TTM और Tower wagon को एक ही block section में काम करने की अनुमति दी जाती है, तो उनके बीच ______ की दूरी बनाए रखी जाएगी।\nWhen material train, TTM and Tower wagon are permitted in the same block section to work, the distance to be kept between them",
+      "options": [
+        "120 मीटर / 120 mtrs",
+        "130 मीटर / 130 mtrs",
+        "150 मीटर / 150 mtrs",
+        "180 मीटर / 180 mtrs"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 155,
+      "text": "दिन/रात के दौरान किसी अन्य TTM के पीछे चल रहे दूसरे TTM की गति ______ होगी।\nThe Speed of the 2nd TTM when following another TTM during day/night",
+      "options": [
+        "40 कि.मी./घं. / 40 kmph",
+        "25/8 कि.मी./घं. / 25/8 kmph",
+        "जैसा उस पर stencil किया गया है / As stenciled on it",
+        "25/10 कि.मी./घं. / 25/10 kmph"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 156,
+      "text": "Line block के दौरान section में काम करने और अगले station तक आगे जाने के लिए TTM को दिया जाने वाला authority ______ है।\nAuthority given to TTM to go into section work and proceed to next station during Line block is",
+      "options": [
+        "PLCT",
+        "Caution Order",
+        "T/465",
+        "T/A.465"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 157,
+      "text": "जब एक से अधिक TTM को एक ही block section में जाने और अगले station पर clear होने के लिए programme किया जाता है, तो पहले TTM और आखिरी TTM के लिए authorities क्रमशः ______ हैं।\nWhen more than one TTM are programmed to go in the same block section and clear to the next station the authorities for first TTM and last TTM are",
+      "options": [
+        "T/465, Caution Order",
+        "T/A.465, Caution Order",
+        "Caution Order, T/465",
+        "Caution Order, T/A465"
+      ],
+      "answer": 3,
+      "marks": 1
+    },
+    {
+      "id": 158,
+      "text": "जब एक से अधिक TTM को block section में जाने और उसी station पर वापस आने के लिए programme किया जाता है, तो पहले TTM और बाद वाले (subsequent) TTM के लिए authorities क्रमशः ______ हैं।\nWhen more than one TTM are programmed to go to block section and return to the same station the authorities for first TTM and subsequent TTM are ----",
+      "options": [
+        "T/465, Caution Order",
+        "T/A.465, Caution Order",
+        "Caution Order, T/465",
+        "Caution Order, T/A465"
+      ],
+      "answer": 0,
+      "marks": 1
+    },
+    {
+      "id": 159,
+      "text": "Field telephone पर block प्राप्त करने के लिए अधिकृत engineering official का पद ______ से कम नहीं होना चाहिए।\nAuthorized engineering official to obtain blocks on the field telephone who shall not be below the rank of",
+      "options": [
+        "Sr.DEN",
+        "PWI",
+        "DEN",
+        "AEN"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 160,
+      "text": "Circular notice जारी करने के बाद, DOM कितने दिन पहले all concerned message जारी करेगा?\nAfter issuing circular notice, how many days in advance, the DOM will issue an all concerned message",
+      "options": [
+        "एक वर्ष / One year",
+        "2 दिन / 2 days",
+        "3 माह / 3 months",
+        "छह माह / Six months"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 161,
+      "text": "Engineering branch, Operating branch के साथ मिलकर circular notice जारी करने की व्यवस्था करेगी, जो ______ के लिए वैध होगा।\nEngineering branch will arrange with Operating branch for issue of a circular notice, which shall be valid for --------------.",
+      "options": [
+        "एक वर्ष / One year",
+        "48 घंटे / 48 hours",
+        "3 माह / 3 months",
+        "छह माह / Six months"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 162,
+      "text": "Category III के अंतर्गत आने वाले engineering works, जैसे ballast की loading/unloading, के लिए ______ आवश्यक है।\nEngineering works come under category III loading/unloading of ballast requires",
+      "options": [
+        "केवल Caution Order के माध्यम से SM को सूचना / Only intimation to SM through caution order",
+        "Line block",
+        "Material block",
+        "Engineering branch बिना किसी सूचना के कार्य कर सकती है / Engineering branch can take up work without any intimation"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 163,
+      "text": "दो block stations के बीच block section के दोनों छोर से एक साथ लिए गए block को ______ कहते हैं।\nBlock availed from either end of the block section between two block stations simultaneously",
+      "options": [
+        "Power block",
+        "Integrated block",
+        "Shadow block",
+        "कोई विशिष्ट नाम नहीं / No specific name"
+      ],
+      "answer": 2,
+      "marks": 1
+    },
+    {
+      "id": 164,
+      "text": "Maintenance work के लिए line के एक भाग को एक से अधिक departments द्वारा block करना ______ कहलाता है।\nBlocking of a portion of line for maintenance work by more than one department is called",
+      "options": [
+        "Power block",
+        "Integrated block",
+        "Shadow block",
+        "कोई विशिष्ट नाम नहीं / No specific name"
+      ],
+      "answer": 1,
+      "marks": 1
+    },
+    {
+      "id": 165,
+      "text": "नियोजित रखरखाव (planned maintenance) और asset की मरम्मत, प्रतिस्थापन या सृजन का कार्य ______ के अनुसार निष्पादित किया जाएगा।\nPlanned maintenance and asset repair or replacement or creation work shall be executed in accordance with the _______________________",
+      "options": [
+        "LINE BLOCK PROGRAMME",
+        "NI WORKING PROGRAMME",
+        "ROLLING BLOCK PROGRAMME",
+        "उपर्युक्त सभी / ALL OF THE ABOVE"
+      ],
+      "answer": 2,
+      "marks": 1
+    }
+  ]
+}
